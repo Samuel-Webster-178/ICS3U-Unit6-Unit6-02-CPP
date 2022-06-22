@@ -14,7 +14,7 @@ template<size_t N>
 int HighestNumberCalculator(std::array<int, N> array) {
     // this functions is to get largest number in an array
 
-    int highestNumber = 0;
+    int highestNumber = array[0];
 
     for (int counter = 0; counter < array.size(); counter++) {
         if (highestNumber < array[counter]) {
